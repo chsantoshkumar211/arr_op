@@ -24,3 +24,10 @@ def minarray(array):
         if(array[i]<minn):
             minn=array[i]
     return minn
+
+def remall(array,k):
+    s=[]
+    for i in array:
+        if i!=k:
+            s.append(i)
+    return s
