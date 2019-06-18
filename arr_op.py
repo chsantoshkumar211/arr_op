@@ -31,3 +31,21 @@ def remall(array,k):
         if i!=k:
             s.append(i)
     return s
+
+def max_index(array):
+    index=0
+    maxx=array[0]
+    for i in range(0,len(array)):
+        if array[i]>maxx:
+            maxx=array[i]
+            index=i
+    return index
+
+def min_index(array):
+    index=0
+    minn=array[0]
+    for i in range(0,len(array)):
+        if array[i]<minn:
+            minn=array[i]
+            index=i
+    return index
