@@ -11,6 +11,7 @@ A simple python library for handy operations on 1D arrays
  - Max inderx in array
  - key index
  - Reverse the array
+ 
 ***Target***
  - Merge sort
  - Heap sort
