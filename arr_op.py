@@ -49,3 +49,7 @@ def min_index(array):
             minn=array[i]
             index=i
     return index
+
+def rev(array):
+    s=array[::-1]
+    return s
