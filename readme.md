@@ -11,13 +11,15 @@ A simple python library for handy operations on 1D arrays
  - Max inderx in array
  - key index
  - Reverse the array
+ - Selection sort
+ - Insertion sort
  
 ***Target***
  - Merge sort
  - Heap sort
  - ~~Bubble sort~~
- - Selection sort
- - Insertion sort
+ - ~~Selection sort~~
+ - ~~Insertion sort~~
  - ~~Minimum element in an array~~
  - ~~Maximum element in an array~~
  - ~~Reverse the array~~
