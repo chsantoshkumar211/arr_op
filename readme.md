@@ -13,6 +13,7 @@ A simple python library for handy operations on 1D arrays
  - Reverse the array
  - Selection sort
  - Insertion sort
+ - Quick Sort
  
 ***Target***
  - Merge sort
@@ -29,4 +30,4 @@ A simple python library for handy operations on 1D arrays
  - Longest sub-sequence
  - Max sub array
  - Sorted-merge of two arrays
- - Quick Sort
+ - ~~Quick Sort~~
