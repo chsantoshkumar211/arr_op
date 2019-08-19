@@ -30,6 +30,53 @@ def insertion_sort(array):
         array[j+1]=key
     return array
 
+def quick_sort(arr):
+    def quick(arr,l,r):
+        if(l<r):
+            pivot=median(arr,l,r)
+            i=l
+            j=r-2
+            while(True):
+                while(arr[i]<pivot):
+                    i+=1
+                while(arr[j]>pivot):
+                    j-=1
+                if(i<j):
+                    t=arr[i]
+                    arr[i]=arr[j]
+                    arr[j]=t
+                else:
+                    break
+            t=arr[i]
+            arr[i]=arr[r-1]
+            arr[r-1]=t
+            quick(arr,l,i-1)
+            quick(arr,i+1,r)
+
+    def median(arr,l,r):
+        mid=(l+r)//2
+        if(arr[l]>arr[mid]):
+            t=arr[l]
+            arr[l]=arr[mid]
+            arr[mid]=t
+        if(arr[l]>arr[r]):
+            t=arr[l]
+            arr[l]=arr[r]
+            arr[r]=t
+        if(arr[mid]>arr[r]):
+            t=arr[mid]
+            arr[mid]=arr[r]
+            arr[r]=t
+        t=arr[mid]
+        arr[mid]=arr[r-1]
+        arr[r-1]=t
+        return arr[r-1]
+
+    l=0
+    r=len(arr)-1
+    quick(arr,l,r)
+    return arr
+
 # Basic operations
 
 def maxarray(array):
