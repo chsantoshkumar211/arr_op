@@ -14,6 +14,7 @@ A simple python library for handy operations on 1D arrays
  - Selection sort
  - Insertion sort
  - Quick Sort
+ - Sorted-merge of two arrays
  
 ***Target***
  - Merge sort
@@ -29,5 +30,5 @@ A simple python library for handy operations on 1D arrays
  - ~~key index~~
  - Longest sub-sequence
  - Max sub array
- - Sorted-merge of two arrays
+ - ~~Sorted-merge of two arrays~~
  - ~~Quick Sort~~
